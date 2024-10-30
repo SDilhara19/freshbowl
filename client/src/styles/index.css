@@ -1,0 +1,119 @@
+:root {
+    --primary-text: #333;
+}
+
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--primary-text);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+ 
+
+li{
+    list-style: none;
+}
+
+
+.cta-button{
+    color: #000;
+}
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin: 0rem 0rem 2.25rem 0rem;
+    padding-top: 0.75rem;
+    gap: 2.0625rem;
+    justify-content: space-between;
+}
+.navlinks-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+.navlinks-con li{
+    padding: 0.72125rem 1.87525rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.title{
+    font-family: "Climate Crisis";
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #8BD838 0%, #1E7256 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-right{
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    
+}
+
+.contact-button{
+    display: flex;
+    padding: 0.8125rem 1rem;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: Manrope; 
+    font-weight: 700;
+    line-height: 140%; 
+    letter-spacing: -0.02rem;
+    border: 1px solid #333;
+    border-radius: 50px;
+    width: 10rem;
+    
+}
+
+.notification-icon{
+    display: flex;
+    width: 3.125rem;
+    height: 3.125rem;
+    padding: 0.8125rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 3.125rem;
+    background: #010205;
+}
+
+.hero{
+    flex-shrink: 0;
+    height: 90vh;
+    width: full;
+    border-radius: 3.75rem;
+    background: 
+    linear-gradient(270deg, rgba(0, 0, 0, 0.32) 1.09%, rgba(0, 0, 0, 0.88) 100%), 
+    url(https://s3-alpha-sig.figma.com/img/de5a/d4b1/280d764a1fe47880cc185b53132efe7a?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CT57LDQUCu78OyHJLlx8frfKP91~wQHWRZ9YDhmyHEbtgFfTEJxb5h4UoGJcK1cDTcqKSmgUEe7Etve5SMLIyaelh3PAHUZ0VxWYL6H0kOjdnQcwGaBfulDh~NByJ7MAlYW8YiyHQMGvYY-Uesvg9kVMLW0uF7d4lfMMhrpZScNp4g0yLZtBHxwR2feXKwkLBw3tiPAa51loHA4LPRxmb~xhplpKa4sTFxZ3Fy0zCchh9pskrbDjX8Nd6nIIcZp7f2z7HW79AqTjiTxT4d4JgMXaKkgSqoA3pU4TblLL80yB6J9WYIjrqFoLUFPkhepxLpVVvcvqL00SwqZrRfiVHg__) 
+    no-repeat center center / cover, 
+    #D9D9D9;
+    box-shadow: 0px 55px 76.34px -10.32px rgba(46, 81, 9, 0.55);
+}
+
+.hero-text{
+    width: 50%;
+    color: #F0F0F0;
+    font-size: 5.75rem;
+    font-weight: 600;
+    line-height: 125%; /* 7.1875rem */
+}
