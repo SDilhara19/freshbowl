@@ -2,7 +2,7 @@ import React from 'react'
 
 const Slider = () => {
   return (
-    <div>Slider</div>
+    <div className='slider-card bg-fuchsia-400'>Slider</div>
   )
 }
 

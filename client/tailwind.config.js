@@ -12,7 +12,11 @@ export default {
         primarytext: '#333',
         white: '#ffffff',
       },
+      height: {
+        '40rem': '40rem', 
+      },
     },
+    
   },
   plugins: [],
 }

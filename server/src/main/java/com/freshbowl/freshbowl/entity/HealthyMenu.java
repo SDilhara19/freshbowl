@@ -1,16 +1,19 @@
 package com.freshbowl.freshbowl.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.web.bind.annotation.GetMapping;
 
 
 @Getter
 @Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(name="healthy_menus")
-public class HealthyMenus {
+public class HealthyMenu {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="id")
@@ -24,5 +27,12 @@ public class HealthyMenus {
 
 
     @Column(name="image_url")
-    private String image_url;
+    private String imageUrl;
+
+    @Column(name="description")
+    private String description;
+
+    @Column(name="category")
+    private String category;
+
 }
