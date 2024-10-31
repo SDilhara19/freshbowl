@@ -113,7 +113,7 @@ li{
     background: #010205;
 }
 
-.hero{
+.hero, .wellness{
     height: 90vh;
     width: 100wh;
     border-radius: 3.75rem;
@@ -125,6 +125,15 @@ li{
     box-shadow: 0px 55px 76.34px -10.32px rgba(46, 81, 9, 0.55);
 }
 
+
+.wellness{
+    background: 
+    linear-gradient(270deg, rgba(0, 0, 0, 0.32) 1.09%, rgba(0, 0, 0, 0.88) 100%), 
+    url(https://s3-alpha-sig.figma.com/img/e619/be9c/42834f9f4bb908a5883760316783f3d2?Expires=1731283200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KSsnaVu8K10lhasxeRAG1G1NhI7P8COnKjXAT2pGhVbJso0oOTqmEq-N4yY0pO2FSfaFYr4dVMAc2zrM2Ag1SpfLqpw-GCODMaGaC7Gbw~gMjzcrDAdW7553bVzaIwaYUePuZwYt60WNyeaiIBN5bbu6ouh4Zfn2MTLKuFWWX21nb7M3XaVIR5c~M31TRVdH2gxpQbqxb6B0D~SN4uJSZ6L8vy5RIju2kcayI8FTg4E-HlTV9ZEG1SHOJcBMJiMOVvAy~bfOqTZgY-T9zQofO-M7WQnLFVBb8MCWUhQ-mdpmAnt-MHOo~DHlQhSnxNBZ9PyKV7dpDE09lHw2IIdf-g__) 
+    no-repeat center center / cover, 
+    #D9D9D9;
+}
+
 .hero-text{
     width: 70%;
     color: #F0F0F0;
@@ -132,6 +141,65 @@ li{
     font-weight: 600;
     line-height: 125%; /* 7.1875rem */
 }
+.wellness-text{
+    width: 70%;
+    color: #F0F0F0;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 125%; /* 7.1875rem */
+}
+
+.wellness-text-2{
+    color: #DFFFBD;
+    width: 70%;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 125%; /* 7.1875rem */
+
+}
+
+.transparent-card{
+    border-radius: 1.6875rem;
+background: linear-gradient(180deg, rgba(255, 252, 252, 0.30) 0%, rgba(116, 116, 116, 0.08) 100%);
+box-shadow: 0px 45.39px 76.34px -10.32px rgba(60, 6, 45, 0.25);
+backdrop-filter: blur(47.25px);
+display: flex;
+width: 27.1875rem;
+padding: 2.3125rem 1.75rem 2.16419rem 1.8125rem;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 1.5625rem;
+
+}
+
+.transparent-card div{
+    color: #FFF;
+font-family: Poppins;
+font-size: 2.41938rem;
+font-style: normal;
+font-weight: 500;
+line-height: 128.3%; /* 3.10406rem */
+}
+
+.transparent-card button {
+    display: flex;
+padding: 0.84956rem 1.062rem;
+align-items: center;
+gap: 0.354rem;
+border-radius: 2.40713rem;
+border: 2.266px solid rgba(255, 255, 255, 0.70);
+}
+
+.transparent-card button .order{
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.88);
+font-size: 1.062rem;
+font-weight: 500;
+line-height: 128.3%; /* 1.3625rem */
+}
+
+
 
 .green-banner,
 .slider-card {
@@ -299,7 +367,7 @@ color: #FFF;
         
         }
 
-        .hero{
+        .hero, .wellness{
             height: 90vh;
             width: 100wh;
             border-radius: 3.75rem;

@@ -11,6 +11,7 @@ export default {
         secondary: '#69AF1E',
         primarytext: '#333',
         white: '#ffffff',
+        lightyellow: '#DFFFBD'
       },
       height: {
         '40rem': '40rem', 
