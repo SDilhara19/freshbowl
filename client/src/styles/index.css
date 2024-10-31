@@ -214,14 +214,15 @@ line-height: 128.3%; /* 1.3625rem */
     box-shadow: 0px 45.39px 76.34px -10.32px rgba(0, 0, 0, 0.25);
 }
 
-.subtitle, .subtitle span{
+.subtitle, .subtitle span, .subtitle-2{
     color: var(--primary-text);
 font-size: 3.0625rem;
 font-weight: 500;
 line-height: 114%; /* 3.49125rem */
 }
 
-.subtitle span{
+.subtitle span, .subtitle-2{
+    
 color: rgba(51, 51, 51, 0.68)
 }
 
@@ -315,8 +316,30 @@ display: flex;
     font-size: 1.1375rem;
 font-weight: 500;
 color: #FFF;
-
 }
+.category-card-con{
+    background-color: #EDFFDA;
+    width: 100%;
+    margin: 3rem 0;
+    padding: 3rem 0;
+}
+
+
+.category-img-con{
+    height: 22rem;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    border-radius: 1.24rem;
+    overflow: hidden;
+}
+
+.category-img-con img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 @media (max-width: 768px) {
     *{
         font-size: 12px;
@@ -333,7 +356,7 @@ color: #FFF;
         min-height: 30rem;
     }
 
-    .subtitle, .subtitle span{
+    .subtitle, .subtitle span, .subtitle-2{
         font-size: 2.0625rem;
         font-weight: 500;
         }
@@ -409,7 +432,7 @@ color: #FFF;
         height: 66vh; /* Adjusted to two-thirds of the viewport height */
     }
 
-    .subtitle, .subtitle span{
+    .subtitle, .subtitle span, .subtitle-2{
     font-size: 2.0625rem;
     font-weight: 500;
     }

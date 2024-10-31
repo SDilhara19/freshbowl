@@ -6,6 +6,7 @@ import GreenBanner from '../components/GreenBanner'
 import Slider from '../components/Slider'
 import HealthyMenu from '../components/HealthyMenu'
 import WellnessBanner from '../components/WellnessBanner'
+import BestCategories from '../components/BestCategories'
 
 const Home = () => {
   return (
@@ -24,7 +25,7 @@ const Home = () => {
       </div>
       <HealthyMenu/>
       <WellnessBanner/>
-
+      <BestCategories/>
     </div>
   )
 }
