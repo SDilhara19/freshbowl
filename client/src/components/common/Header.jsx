@@ -13,7 +13,7 @@ const Header = () => {
                 }`}><a href="/">Home</a></li>
                 <li><a href="/about">Menu</a></li>
                 <li><a href="/about">About</a></li>
-                <div className='flex '>
+                <div className='flex rec'>
                     <div>Recipes</div>
                     <img src={chevrondDown} alt="" />
                 </div>
